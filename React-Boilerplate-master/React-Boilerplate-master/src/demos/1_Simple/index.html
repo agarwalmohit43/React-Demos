@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple demo 1</title>
+    <script src="../../js/react.min.js"></script>
+    <script src="../../js/react-dom.min.js"></script>
+    <script src="../../js/browser.min.js"></script>
+</head>
+<body>
+    <div id="example1"></div>
+
+
+    <script type="text/babel">
+
+        //creating components
+
+        var Mohit = React.createClass({
+            render:function () {
+                return (
+                    <div>
+                        <h1>Hi Mohit now the components begin</h1>
+                        <p>
+                            What a lovely day to start with!
+                        </p>
+                    </div>
+                );
+            }
+        });
+
+        //to render single component
+//        ReactDOM.render(<Mohit/>,document.getElementById('example1'));
+
+        ReactDOM.render(<div>
+            <Mohit/>
+            <Mohit/>
+            <Mohit/>
+            <Mohit/>
+        </div>,document.getElementById('example1'));
+    </script>
+</body>
+</html>

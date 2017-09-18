@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EventHandling</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <script src="../../js/react.min.js"></script>
+    <script src="../../js/react-dom.min.js"></script>
+    <script src="../../js/browser.min.js"></script>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script type="text/babel">
+
+
+    var Comment = React.createClass({
+
+        edit: function () {
+            alert("Edit");
+        },remove: function () {
+            alert("Remove");
+        },
+
+        render:function () {
+            return (
+                <div className="commentContainer">
+                    <div className="commentText">{this.props.children}</div>
+                    <button onClick={this.edit} className="button-primary">Edit</button>
+                    <button onClick={this.remove} className="button-danger">Remove</button>
+                </div>
+            );
+        }
+    });
+
+    ReactDOM.render(<div>
+        <Comment>Hi Mohit</Comment>
+        <Comment>How are you</Comment>
+        <Comment>Hahahahaha</Comment>
+    </div>, document.getElementById('container'));
+</script>
+
+</body>
+</html>
