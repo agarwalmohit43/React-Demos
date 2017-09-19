@@ -17,8 +17,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/EventHandling/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="561">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/State/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1070">
+              <caret line="65" column="28" lean-forward="false" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -34,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/State/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="203">
               <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
@@ -47,8 +57,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="0" column="18347" lean-forward="false" selection-start-line="0" selection-start-column="18346" selection-end-line="0" selection-end-column="18347" />
+            <state relative-caret-position="402">
+              <caret line="0" column="18620" lean-forward="false" selection-start-line="0" selection-start-column="18620" selection-end-line="0" selection-end-column="18645" />
               <folding />
             </state>
           </provider>
@@ -76,6 +86,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>comment</find>
+      <find>commentContainer</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -87,6 +98,7 @@
         <option value="$PROJECT_DIR$/React-Boilerplate-master/src/demos/ExceptionHandling/index.html" />
         <option value="$PROJECT_DIR$/React-Boilerplate-master/src/demos/EventHandling/index.html" />
         <option value="$PROJECT_DIR$/React-Boilerplate-master/src/demos/State/index.html" />
+        <option value="$PROJECT_DIR$/React-Boilerplate-master/src/demos/State/index2.html" />
       </list>
     </option>
   </component>
@@ -226,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505749034591</updated>
-      <workItem from="1505749036034" duration="4769000" />
+      <workItem from="1505749036034" duration="10101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4769000" />
+    <option name="totallyTimeSpent" value="10101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -290,14 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="0" column="18347" lean-forward="false" selection-start-line="0" selection-start-column="18346" selection-end-line="0" selection-end-column="18347" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/2_Props/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -316,16 +320,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/EventHandling/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="561">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/State/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="203">
           <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="0" column="18620" lean-forward="false" selection-start-line="0" selection-start-column="18620" selection-end-line="0" selection-end-column="18645" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React-Boilerplate-master/src/demos/State/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1070">
+          <caret line="65" column="28" lean-forward="false" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
           <folding />
         </state>
       </provider>
